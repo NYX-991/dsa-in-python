@@ -105,7 +105,6 @@ while n > 0:
 print(smallest)
 
 # Count how many times a particular digit appears
-
 n = 538323
 target = 3
 count = 0
