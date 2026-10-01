@@ -8,7 +8,7 @@ for num in arr:
         freq[num] = 1
 print(freq)
 
-# Find the element that occurs the most
+# # Find the element that occurs the most
 arr = [1, 2, 2, 3, 1, 4, 2, 3]
 freq = {}
 for num in arr:
@@ -16,7 +16,7 @@ for num in arr:
         freq[num] += 1
     else:
         freq[num] = 1
-most_frequent = max(freq, key=freq.get)
+most_frequent = max(freq.items(), key=lambda item: item[1])[0]
 print(most_frequent)
 
 # Find all duplicate elements
@@ -34,6 +34,19 @@ for num, count in freq.items():
 print(duplicates)
 
 # Find first non-repeating element
+arr = [1, 2, 2, 3, 1, 4, 2, 3]
+freq = {}
+duplicates = []
+for num in arr:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+for num, count in freq.items():
+    if count == 1:
+        print(num)
+        break
+
 # Find the element that appears only once
 # Check if two arrays have the same elements
 # Check if two strings are anagrams

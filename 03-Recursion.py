@@ -77,5 +77,21 @@ def is_palindrome(s, start, end):
 print(is_palindrome(s, 0, len(s) - 1))
 
 # Find the Fibonacci number using recursion
+class Solution:
+    def func (self,num):
+        if num <= 1:
+            return num
+        
+        return self.func(num - 1) + self.func(num - 2)
 
+    def fibonacci(self, n: int) -> int:
+        answer = self.func(n)
+        return answer
 
+s = Solution()
+print(s.fibonacci(5))
+
+# Tower of Hanoi problem using recursion
+# Find the sum of an array using recursion
+# Find the reverse of a string using recursion
+# 

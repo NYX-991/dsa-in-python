@@ -6,7 +6,7 @@ A structured journey of learning Data Structures and Algorithms using Python, in
 
 This repository documents my journey of learning DSA.
 
-## Topics Covered
+## Topics & Progress
 
 # 01-Basics
 - [ ] Time and Space Complexity
@@ -15,3 +15,14 @@ This repository documents my journey of learning DSA.
 - [ ] Extraction of digits using Loops
 - [ ] Check Palindrome
 - [ ] Armstrong number
+
+# 02-Hashing
+- [ ] Hashing & Frequency Counting
+- [ ] Hash Map
+- [ ] Hash set
+
+# 03-Recursion
+- [ ] Recursion Basics
+- [ ] Recursion Call
+- [ ] Call Stack
+- [ ] Array & String Problems
